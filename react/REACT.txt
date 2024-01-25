@@ -1,0 +1,243 @@
+
+
+  https://github.com/clau-carrizo/React-freeCodeCamp.git
+
+	REACT
+	=====
+
+CONCEPTOS IMPORTANTES:
+=====================
+COMPONENTE
+	se escribe en mayuscula letra capital
+PROPS
+ESTADO
+HOOKS
+EVENT LISTENER
+
+ELEMENTO
+========
+	Minima Unidad en React
+	Define lo que se ve en pantalla
+	<div>,<img>,<h1>,<a>,<header>,<nav>,<p>
+	<button>,<h2>,etc
+	se escriben en minuscula
+DOM 
+	representa en el navegador todos
+	los elemntos de la pag o app web
+
+ATRIBUTOS
+=========
+	clases // className -palabra reservada-
+id
+	for // htmlFor
+style  background-image // backgroundImage
+	background-color // backgroundColor
+	font-family // fontFamily
+
+const estiloDiv = {		|
+	color: "yellow",	| OBJETO
+	backgroundColor: "black"|
+}				|
+
+definir nombre de objeto en el elemento
+definir atributo style
+
+<div style={estiloDiv}>¡Hola,Mundo!<div>
+<div style={{color;"yellow"}}>¡Hola,Mundo!<div>
+asigna estilo especifico en linea a elemento jsx
+
+Listado de atributos ↓↓↓↓↓↓↓↓↓↓↓
+htpps://reactjs.org/docs/dom-elements.html
+
+Estructura JSX con elementos anidados (COMPONENTE)
+==================================================
+
+elemento dentro de otro elemento
+componentes dentro de elemento
+elemento dentro de componente
+
+CREAR APLICACION INICIAL REACT
+==============================
+crear proyecto:
+---------------
+npx create-react-app + nombre-de-proyecto
+
+iniciar proyecto:
+----------------
+npm start
+
+eliminar archivos:
+------------------
+	*setupTest.js
+	*reportWebVitals.js
+	*App.test.js
+	DE CARPETA PUBLIC
+	*logos
+	*
+
+eliminar DE App.js
+	*header
+	*logo
+	*-logo.svg
+eliminar DE App.css
+	*eliminar todo
+eliminar DE index.js
+	*import reportWebVitals from './reportWebVitals';
+	// If you want to start measuring performance in your app, pass a function
+	// to log results (for example: reportWebVitals(console.log))
+	// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+	reportWebVitals();
+LISTO!!!
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////   desbloquear el poder de REACT /////////////////////
+
+
+VITE = mejor que Create-react-app (simple) + servidor
+
+COMPONENTES= HTML + CSS + JS encapsulados
+	componentes FUNCIONALES *
+	componentes con CLASE
+
+CONCEPTOS BASICOS DE COMPONENTES
+JSX (JS + HTML)
+PROPS (propiedades)!= STATE (estados)
+RENDERIZACION CONDICIONAL
+COMPOSICION un componente dentro de otro componente para formar un
+componente mas grande en JS es la herencia que se pasa entre objetos
+	
+	COMO FUNCIONA LA RENDERIZACION
+
+CICLOS DE VIDA DE UN COMPONENTE
+LISTAS Y CLAVES
+RENDER PROPS 
+REFS
+EVENTOS
+COMPONENTES DE ORDEN SUPERIOR para reutilizar
+
+	HOOKS
+
+GANCHOS BASICOS
+	useState (estado)
+	useEffect (ciclo de vida)
+GANCHOS PERSONALIZADOS
+GANCHOS COMUNES
+	useRef
+	useCallback
+	useMemo
+	useReducer
+	useContext
+
+ENRUTADORES (ROUTER)
+	React Router *
+	Reach Router
+
+MANEJO DE ESTADO (global)
+	Context *
+	Zustand
+	Redux/Toolkit
+	MobX *
+	Recoil
+
+ESTILIZADO
+	CSS Modules
+	Herramientas
+		Tailwind *
+		Material UI
+		Chakra UI
+		Mantine
+		Bootstrap *
+	CSS en JS (trabaja en un solo lugar en JS)
+		Styled Components *
+		Emotion	*
+	
+LLAMADAS A API (trabajar con datos)
+GraphQL
+	Apollo *
+	Relay
+	Urql
+REST
+	Axios *
+	SWR *
+	superagent
+	react-query
+	rtk-query
+PRUEBAS
+	PRUEBAS UNITARIAS
+		Jest *
+		Vitest *
+		React Testing Library * (especifica para react)
+	E2E 
+		Cypress *
+		Playwright
+FRAMEWORKS
+	Next.js * (crea pag desde servidor)
+	Remix (experiencia de usuario)
+	Gatsby (genera componentes con markdown )
+FORMULARIOS
+	Formik *
+	React Hook Form
+	Final Form
+AVANZADO
+	Suspense
+	Portales
+	Manejo de Errores
+	Arquitectura Fiber
+MÓVIL
+ 	React Native
+
+///////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////  INSTALAR MATH (Paquete matematico)
+https://mathjs.org/
+  	npm install mathjs
+confirmar
+	entrar a {}package.json
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
