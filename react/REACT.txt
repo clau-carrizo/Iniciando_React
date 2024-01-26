@@ -1,6 +1,6 @@
 
 
-  https://github.com/clau-carrizo/React-freeCodeCamp.git
+  https://github.com/clau-carrizo/Iniciando_React
 
 	REACT
 	=====
